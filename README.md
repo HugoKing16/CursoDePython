@@ -1,2 +1,1 @@
-# CursoDePython
-Curso Mastermind Python
+Apuntes Curso de Python Mastermind
