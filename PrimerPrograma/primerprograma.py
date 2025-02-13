@@ -1,8 +1,9 @@
 
-numero1 = int(input("Introduce el primer numero: "))
-numero2 = int(input("Introduce el segundo numero: "))
-numero3= int(input("Introduce el tercero numero: "))
+numero1 = int(input("Introduce el primer número: "))
+numero2 = int(input("Introduce el segundo número: "))
+numero3 = int(input("Introduce el tercer número: "))
 
-print("El numero mas grande entre {}, {} y {} es {}, y el mas pequeño es {}" .format(numero1, numero2, numero3,
-                                                                                      max(numero1, numero2, numero3),
-                                                                                      min(numero1, numero2, numero3)))
+mayor = max(numero1, numero2, numero3)
+menor = min(numero1, numero2, numero3)
+
+print(f"El número más grande entre {numero1}, {numero2} y {numero3} es {mayor}, y el más pequeño es {menor}.")
